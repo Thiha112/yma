@@ -1,0 +1,141 @@
+body{
+    background-color: #ffffff;
+    margin:auto;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.home{
+    margin: 0;
+    background-color: #F8ECF8;
+}
+.up-cloud{
+    position: absolute;
+    left:20%;
+    top:20%;
+   
+}
+.bot-cloud{
+    position: absolute;
+    left:75%;
+    top:2%;
+}
+.yma{
+    width: 480px;
+    height: 480px;
+    margin: 0 auto 0 auto;
+}
+.hdp{
+    padding-top: 70px;
+    margin-top: 0;
+    font-size:40px;
+    font-family: 'Sacramento', cursive;
+}
+.htext{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font:bold;
+    /**/
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 7px;
+    width:10%;
+    border-color: #FF8AD0;
+}
+.h2{
+    color:black;
+}
+.ndhome{
+    text-align: center;
+    width:100%;
+    margin:0;
+    background-color: #FBFFF5;
+}
+.hello{
+    padding-top: 30px;
+    width:128px;
+    height:128px;
+}
+.fa{
+    padding:8px;
+    font-size:10px;
+    width:15px;
+    border-radius: 100%;
+    text-decoration: none;
+    margin:center;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+    background-color: #55ACEE;
+    color:white;
+}
+.fa-instagram{
+    background-color: #f82e2e;
+    color:white;
+}
+.fa-linkedin{
+    background-color: #007bb5;
+    color:white;
+}
+.rdhome{
+    background-color: #FBFFF5;
+    text-align: center;
+    margin: auto;
+    height:350px;
+}
+
+.inbetween{
+    background-color: #E4DBFF;
+    text-align: center;
+    margin:auto;;
+    width:70%;
+    height: 70px;
+}
+h3{
+    padding-top: 20px;
+    font-family: 'Mukta', sans-serif;
+    word-spacing: 10px;
+}
+a{
+    margin-right: 20px;
+}
+.seller{
+    margin-left: 50%;
+}
+
+.store{
+    color:#fd78eb;
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 80px 0;
+}
+.storep{
+    margin-left: 90px;
+    margin-bottom: 20px;
+}  
+td {
+    padding: 50px 0;
+}
+.last{
+    overflow: auto;
+    background-color: #BACBE8;
+    height:110px;
+    width:100%;
+    text-align: center;
+}
+.contact{
+    margin: 20px auto 0 auto;
+    background-color: #FDFF99;
+    height:35px;
+    width:15%;
+    border-radius: 40%;
+    padding:auto;
+}
+.lasth{
+    padding-top: 9px;
+}
