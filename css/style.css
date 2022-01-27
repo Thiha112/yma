@@ -1,18 +1,22 @@
 body{
-    background-color: #ffffff;
+    background-color: #F4FBF7;
     margin:auto;
+    font-family: serif;
     text-align: center;
-    font-family: 'Merriweather', serif;
 }
 .home{
+    text-align: center;
     margin: 0;
-    background-color: #F8ECF8;
+    background-color: #F4FBF7;
 }
 .up-cloud{
     position: absolute;
     left:20%;
     top:20%;
    
+}
+h2{
+    color:#FFC9B8;
 }
 .bot-cloud{
     position: absolute;
@@ -25,6 +29,7 @@ body{
     margin: 0 auto 0 auto;
 }
 .hdp{
+    color:#FFC9B8;
     padding-top: 70px;
     margin-top: 0;
     font-size:40px;
@@ -40,16 +45,13 @@ hr{
     border-top-style: dotted;
     border-width: 7px;
     width:10%;
-    border-color: #FF8AD0;
-}
-.h2{
-    color:black;
+    border-color: #BDC153;
 }
 .ndhome{
     text-align: center;
     width:100%;
     margin:0;
-    background-color: #FBFFF5;
+    background-color: #F4FBF7;
 }
 .hello{
     padding-top: 30px;
@@ -79,63 +81,261 @@ hr{
     background-color: #007bb5;
     color:white;
 }
-.rdhome{
-    background-color: #FBFFF5;
-    text-align: center;
-    margin: auto;
-    height:350px;
+a{
+    margin-right: 25px;
 }
-
 .inbetween{
-    background-color: #E4DBFF;
+    background-color: #D5D3F3;
     text-align: center;
-    margin:auto;;
-    width:70%;
+    margin:auto;
+    width:60%;
     height: 70px;
 }
-h3{
+.me2{
+    font-family: 'Montserrat Alternates', sans-serif;
     padding-top: 20px;
-    font-family: 'Mukta', sans-serif;
-    word-spacing: 10px;
 }
-a{
-    margin-right: 20px;
+.rdhome{
+    width:50%;
+    margin:50px auto 150px auto;
+    text-align: left;
+    line-height: 2;
 }
-.seller{
-    margin-left: 50%;
+.MeAtShop{
+    width:180px;
+    float:left;
+    margin-right: 40px;
 }
 
-.store{
-    color:#fd78eb;
-    margin-left: 90px;
-    margin-bottom: 100px;
+.storeh{
+    font-family: 'Merriweather',arial; 
+    color: #FFC9B8;
 }
-table {
-    border-collapse: separate;
-    border-spacing: 80px 0;
+
+.fourth{
+    width:50%;
+    margin:0 auto 100px auto;
+    text-align: left;
+    line-height: 2;
 }
-.storep{
-    margin-left: 90px;
-    margin-bottom: 20px;
-}  
-td {
-    padding: 50px 0;
+.Shop{
+    width:150px;
+    float:right;
+    margin-left: 40px;
 }
+.shopp{
+    padding-top: 40px;
+}
+.slink{
+    width:30px;
+    height:30px;
+}
+.slinka{
+    margin-left: 20px;
+}
+
 .last{
-    overflow: auto;
-    background-color: #BACBE8;
-    height:110px;
-    width:100%;
-    text-align: center;
+    background-color: #BFE7E8;
+    padding: 5px 0 5px;
 }
-.contact{
-    margin: 20px auto 0 auto;
-    background-color: #FDFF99;
-    height:35px;
-    width:15%;
-    border-radius: 40%;
-    padding:auto;
-}
-.lasth{
-    padding-top: 9px;
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #633b00;
+    font-size: 20px;
+    background: #FFFEA0;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #F6FFEF;
+    text-decoration: none;
+  }
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    body{
+        background-color: #F4FBF7;
+        margin:auto;
+        font-family: serif;
+        text-align: center;
+    }
+    .home{
+        margin:auto;
+        width:500px;
+        background-color: #F4FBF7;
+    }
+    .up-cloud{
+        width:80px;
+        height: 80px;
+        position: absolute;
+        left:10%;
+        top:25%;
+       
+    }
+    h2{
+        color:#FFC9B8;
+    }
+    .bot-cloud{
+        width:80px;
+        height: 80px;
+        position: absolute;
+        left:100%;
+        top:1%;
+    }
+    .yma{
+        width: 360px;
+        height: 360px;
+        margin: 0 auto 0 auto;
+    }
+    .hdp{
+        color:#FFC9B8;
+        padding-top: 70px;
+        margin-top: 0;
+        font-size:30px;
+        font-family: 'Sacramento', cursive;
+    }
+    .htext{
+        font-family: 'Montserrat Alternates', sans-serif;
+        font:bold;
+        /**/
+    }
+    hr{
+        border-style: none;
+        border-top-style: dotted;
+        border-width: 7px;
+        width:10%;
+        border-color: #BDC153;
+    }
+    .ndhome{
+        text-align: center;
+        width:500px;
+        margin:0;
+        background-color: #F4FBF7;
+    }
+    .mep{
+        margin-left: 25px;
+        width:90%;
+    }
+    .hello{
+        padding-top: 30px;
+        width:128px;
+        height:128px;
+    }
+    .fa{
+        padding:8px;
+        font-size:10px;
+        width:15px;
+        border-radius: 100%;
+        text-decoration: none;
+        margin:center;
+    }
+    .fa:hover{
+        opacity: 0.7;
+    }
+    .fa-facebook{
+        background-color: #55ACEE;
+        color:white;
+    }
+    .fa-instagram{
+        background-color: #f82e2e;
+        color:white;
+    }
+    .fa-linkedin{
+        background-color: #007bb5;
+        color:white;
+    }
+    a{
+        margin-right: 25px;
+    }
+    .inbetween{
+        background-color: #D5D3F3;
+        text-align: center;
+        margin-left: 130px;
+        width:60%;
+        height: 70px;
+    }
+    .me2{
+        font-family: 'Montserrat Alternates', sans-serif;
+        padding-top: 20px;
+    }
+    .rdhome{
+        background-color: #F4FBF7;
+        width:500px;
+        margin:50px auto 150px auto;
+        text-align: left;
+        line-height: 2;
+    }
+    .MeAtShop{
+        height:128px;
+        width:128px;
+        float:left;
+        margin-right: 40px;
+    }
+    
+    .storeh{
+        font-size: 18px;
+        font-family: 'Merriweather',arial; 
+        color: #FFC9B8;
+    }
+    .storep{
+        margin-right: 10px;
+        font-size: 13px;
+    }
+    
+    .fourth{
+        background-color: #F4FBF7;
+        width:500px;
+        margin:0 auto 100px auto;
+        text-align: left;
+        line-height: 2;
+    }
+    .Shop{
+        height:112px;
+        width:112px;
+        float:right;
+        margin-top: 8px;
+        margin-left: 20px;
+    }
+    .shopp{
+        margin-left: 20px;
+        width:90%;
+        font-size: 13px;
+        padding-top: 20px;
+    }
+    .slink{
+        width:30px;
+        height:30px;
+    }
+    .slinka{
+        margin-left: 20px;
+    }
+    
+    .last{
+        width:500px;
+        background-color: #BFE7E8;
+        padding: 5px 0 5px;
+    }
+    
+    .btn {
+        margin-left: 10%;
+        -webkit-border-radius: 22;
+        -moz-border-radius: 22;
+        border-radius: 22px;
+        font-family: Arial;
+        color: #633b00;
+        font-size: 15px;
+        background: #FFFEA0;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        background: #F6FFEF;
+        text-decoration: none;
+      }
 }
